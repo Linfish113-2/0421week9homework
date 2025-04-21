@@ -1,0 +1,9 @@
+變數名稱,英文名稱,類型,說明
+保費年月,premium_month,character,資料所屬月份（格式：YYYYMM）
+縣市,county,character,補助對象所屬縣市
+鄉鎮,town,character,補助對象所屬鄉鎮
+性別（男1女2）,gender,integer,性別，1 表示男，2 表示女
+補助項目,subsidy_item,character,"補助項目代碼（如 a, b, c...）"
+年齡區間,age_group,character,補助對象的年齡分組（如 0~4歲）
+補助人數,people_count,integer,該分類下的補助人數
+補助金額,subsidy_amount,integer,該分類下的總補助金額（元）
